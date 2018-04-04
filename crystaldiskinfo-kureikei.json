@@ -1,0 +1,35 @@
+{
+    "homepage": "https://crystalmark.info/ja/software/crystaldiskinfo/",
+    "version": "7.6.0",
+    "license": "MIT",
+    "url": "http://inazumaapps.info/scoop/redist/CrystalDiskInfo7_6_0KureiKei.zip",
+    "hash": "adf9eea75843b7339918bfa21087f4be6dd3a6ae91350c76b594cc40c80b29f9",
+    "architecture": {
+        "64bit": {
+            "bin": [["DiskInfo64K.exe", "crystaldiskinfo"]],
+            "shortcuts": [
+                [
+                    "DiskInfo64K.exe",
+                    "CrystalDiskInfo Kurei Kei Edition"
+                ]
+            ]
+        },
+         "32bit": {
+             "bin": [["DiskInfo32K.exe", "crystaldiskinfo"]],
+            "shortcuts": [
+                [
+                    "DiskInfo32K.exe",
+                    "CrystalDiskInfo Kurei Kei Edition"
+                ]
+            ]
+        }
+    },
+    "pre_install": "if(!(Test-Path(\"$dir\\DiskInfo.ini\"))) { New-Item \"$dir\\DiskInfo.ini\" | Out-Null }",
+    "persist": [
+        "DiskInfo.ini"
+    ],
+    "checkver": {
+        "url": "https://crystalmark.info/ja/download/",
+        "re": "\\] CrystalDiskInfo ([\\d.]+) &#8211;"
+    }
+}

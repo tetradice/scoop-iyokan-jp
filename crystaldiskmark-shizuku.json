@@ -1,0 +1,39 @@
+{
+    "homepage": "https://crystalmark.info/ja/software/crystaldiskmark/",
+    "version": "6.0.0",
+    "license": "MIT",
+    "url": "http://iij.dl.osdn.jp/crystaldiskmark/68624/CrystalDiskMark6_0_0Shizuku.zip",
+    "hash": "7b01cff2085664af0429591975ecb58559af5337a5fc4d961d49b28a92d03294",
+    "architecture": {
+        "64bit": {
+            "bin": [["DiskMark64S.exe", "crystaldiskmark"]],
+            "shortcuts": [
+                [
+                    "DiskMark64S.exe",
+                    "CrystalDiskMark"
+                ]
+            ]
+        },
+         "32bit": {
+            "bin": [["DiskMark32S.exe", "crystaldiskmark"]],
+            "shortcuts": [
+                [
+                    "DiskMark32S.exe",
+                    "CrystalDiskMark"
+                ]
+            ]
+        }
+    },
+    "pre_install": [
+        "if(!(Test-Path(\"$dir\\DiskMark64S.ini\"))) { New-Item \"$dir\\DiskMark64S.ini\" | Out-Null }",
+        "if(!(Test-Path(\"$dir\\DiskMark32S.ini\"))) { New-Item \"$dir\\DiskMark32S.ini\" | Out-Null }"
+    ],
+    "persist": [
+        "DiskMark64S.ini",
+        "DiskMark32S.ini"
+    ],
+    "checkver": {
+        "url": "https://crystalmark.info/ja/download/",
+        "re": "\\] CrystalDiskMark ([\\d.]+) &#8211;"
+    }
+}
