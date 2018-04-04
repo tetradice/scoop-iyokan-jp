@@ -1,0 +1,35 @@
+{
+    "homepage": "https://crystalmark.info/ja/software/crystaldiskinfo/",
+    "version": "7.6.0",
+    "license": "MIT",
+    "url": "http://inazumaapps.info/scoop/redist/CrystalDiskInfo7_6_0Shizuku.zip",
+    "hash": "c86321fa37a35ab3dd5e487737a3b7e1a1d85decdfc79064bf767d5ae351faba",
+    "architecture": {
+        "64bit": {
+            "bin": [["DiskInfo64S.exe", "crystaldiskinfo"]],
+            "shortcuts": [
+                [
+                    "DiskInfo64S.exe",
+                    "CrystalDiskInfo Shizuku Edition"
+                ]
+            ]
+        },
+         "32bit": {
+             "bin": [["DiskInfo32S.exe", "crystaldiskinfo"]],
+            "shortcuts": [
+                [
+                    "DiskInfo32S.exe",
+                    "CrystalDiskInfo Shizuku Edition"
+                ]
+            ]
+        }
+    },
+    "pre_install": "if(!(Test-Path(\"$dir\\DiskInfo.ini\"))) { New-Item \"$dir\\DiskInfo.ini\" | Out-Null }",
+    "persist": [
+        "DiskInfo.ini"
+    ],
+    "checkver": {
+        "url": "https://crystalmark.info/ja/download/",
+        "re": "\\] CrystalDiskInfo ([\\d.]+) &#8211;"
+    }
+}

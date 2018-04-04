@@ -1,0 +1,27 @@
+{
+    "version": "0.70-ranvis",
+    "license": "",
+    "architecture": {
+        "64bit": {
+            "url": "http://inazumaapps.info/scoop/redist/PuTTY-0.70-ranvis-20170708.win64.7z",
+            "hash": "57484cc127019ce691c249e8b064f133863d53dbe1f156d47918c7e6bb5f9721"
+        },
+        "32bit": {
+            "url": "http://inazumaapps.info/scoop/redist/PuTTY-0.70-ranvis-20170708.win32.7z",
+            "hash": "567bc82df759488a4887b8d77572efd5ccf794c9fd87e1087bc7743e785b662e"
+        }
+    },
+    "extract_dir": "PuTTY-ranvis",
+    "homepage": "http://www.ranvis.com/putty",
+    "bin": "Putty.exe",
+    "shortcuts": [
+        [
+            "Putty.exe",
+            "PuTTY-ranvis"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.ranvis.com/putty",
+        "re": "PuTTY-([\\d.]+-ranvis) (\\d{4})/(\\d{2})/(\\d{2})"
+    }
+}

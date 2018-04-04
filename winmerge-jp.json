@@ -1,0 +1,38 @@
+﻿{
+    "version": "2.14.0-jp-151",
+    "license": "GPL2",
+    "architecture": {
+        "64bit": {
+            "url": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge-2.14.0-jp-151-x64-exe.zip",
+            "hash": "4c3eab417738190d92c40cf4fb75b5ab79bbc8f5c5a9c3b4f8ec79f57d613190"
+        },
+        "32bit": {
+            "url": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge-2.14.0-jp-151-exe.zip",
+            "hash": "cc4dc14b1541cab23c8c02392bbf9a32db48bc700145791b6dfd0b3aa51f00c2"
+        }
+    },
+    "extract_dir": "WinMerge",
+    "homepage": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge.html",
+    "bin": "WinMergeU.exe",
+    "shortcuts": [
+        [
+            "WinMergeU.exe",
+            "WinMerge (日本語版)"
+        ]
+    ],
+    "checkver": {
+        "url": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge.rdf",
+        "re": "([\\d.]+)\\+\\-jp\\-([\\d]+)",
+        "replace": "${1}-jp-${2}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge-$match1-jp-$match2-x64-exe.zip"
+            },
+            "32bit": {
+                "url": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge-$match1-jp-$match2-exe.zip"
+            }
+        }
+    }
+}

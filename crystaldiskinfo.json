@@ -1,0 +1,36 @@
+{
+    "homepage": "https://crystalmark.info/ja/software/crystaldiskinfo/",
+    "version": "7.6.0",
+    "license": "MIT",
+    "url": "http://inazumaapps.info/scoop/redist/CrystalDiskInfo7_6_0.zip",
+    "hash": "2868c95723da0362e01f9575831e960e5205dd04382f7cc55d778b99de896896",
+    "architecture": {
+        "64bit": {
+            "bin": [["DiskInfo64.exe", "crystaldiskinfo"]],
+            "shortcuts": [
+                [
+                    "DiskInfo64.exe",
+                    "CrystalDiskInfo"
+                ]
+            ]
+        },
+         "32bit": {
+             "bin": [["DiskInfo32.exe", "crystaldiskinfo"]],
+            "shortcuts": [
+                [
+                    "DiskInfo32.exe",
+                    "CrystalDiskInfo"
+                ]
+            ]
+        }
+    },
+    "pre_install": "if(!(Test-Path(\"$dir\\DiskInfo.ini\"))) { New-Item \"$dir\\DiskInfo.ini\" | Out-Null }",
+    "persist": [
+        "DiskInfo.ini"
+    ],
+    "checkver": {
+        "url": "https://crystalmark.info/ja/download/",
+        "re": "\\] CrystalDiskInfo ([\\d.]+) &#8211;"
+    },
+    "_comment": "This manifest derives from https://github.com/jfut/scoop-jfut/"
+}

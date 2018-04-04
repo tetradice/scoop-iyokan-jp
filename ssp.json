@@ -1,0 +1,18 @@
+{
+    "homepage": "http://ssp.shillest.net/",
+    "version": "2.4.17",
+    "url": "http://inazumaapps.info/scoop/redist/ssp_2_4_17f.7z",
+    "hash": "33ca32c79d85216fc20b95c068519372e5f7701469a88cc0a71d98127c3d99e0",
+    "bin": "ssp.exe",
+    "persist": ["data\\profile"],
+    "shortcuts": [
+        [
+            "ssp.exe",
+            "SSP (Sakura Script Player)"
+        ]
+    ],
+    "checkver": {
+          "url": "http://ssp.shillest.net/"
+        , "re": "SSP ([\\d.]+)"
+    }
+}

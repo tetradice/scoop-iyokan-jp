@@ -1,0 +1,32 @@
+{
+    "homepage": "https://tablacus.github.io/explorer.html",
+    "version": "18.4.2",
+    "license": "MIT",
+    "url": "https://tablacus.github.io/dl/te180402.zip",
+    "hash": "38a45ea43fa1b15adca91a4bb7aa885fb3c0ad8efa4bd753d6832f1609a3d374",
+    "architecture": {
+        "64bit": {
+            "bin": [["TE64.exe", "te"], ["TE64.exe", "tablacus"]],
+            "shortcuts": [
+                [
+                    "TE64.exe",
+                    "Tablacus Explorer"
+                ]
+            ]
+        },
+         "32bit": {
+            "bin": [["TE32.exe", "te"], ["TE32.exe", "tablacus"]],
+            "shortcuts": [
+                [
+                    "TE32.exe",
+                    "Tablacus Explorer"
+                ]
+            ]
+        }
+    },
+    "pre_install": "if(!(Test-Path(\"$dir\\config\"))) { New-Item \"$dir\\config\" -type directory | Out-Null } ",
+    "persist": "config",
+    "checkver": {
+        "github": "https://github.com/tablacus/TablacusExplorer"
+    }
+}
