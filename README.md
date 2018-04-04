@@ -1,5 +1,6 @@
 iyokan-jp bucket
 ================
+[![Join the chat at https://gitter.im/scoop-iyokan-jp/ja](https://badges.gitter.im/scoop-iyokan-jp/Lobby.svg)](https://gitter.im/scoop-iyokan-jp/ja?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 iyokan-jpは、[Scoop][]にインストール可能なソフトウェアリストを追加するための追加bucketです。
 
@@ -81,6 +82,9 @@ manifestの作成方針 (2018/4/5現在)
 連絡先
 ------
 @tetradice ([Twitter](https://twitter.com/tetradice)、[gitter](https://gitter.im/scoop-iyokan-jp/ja))
+
+[![Join the chat at https://gitter.im/scoop-iyokan-jp/ja](https://badges.gitter.im/scoop-iyokan-jp/Lobby.svg)](https://gitter.im/scoop-iyokan-jp/ja?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 [Scoop]: http://scoop.sh/
 [awesome-scoop]: https://github.com/tapanchandra/awesome-scoop
