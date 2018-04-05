@@ -63,7 +63,7 @@ Windows向けの素晴らしいパッケージ管理ソフトウェア、[Scoop]
 
 本bucketに登録しているいくつかのmanifestファイルは、他のbucketに登録されているmanifestファイルを元に制作させていただきました。
 
-* CrystalDiskMark, CrystalDiskInfo - [jfut-bucket][] (Created by jfut)
+* CrystalDiskMark, CrystalDiskInfo - [jfut bucket][] (Created by jfut)
 * NYAGOS - [yutahaga/scoop-bucket](https://github.com/yutahaga/scoop-bucket/) (Created by yutahaga)
 
 
@@ -85,4 +85,4 @@ manifestの作成方針 (2018/4/5現在)
 
 [Scoop]: http://scoop.sh/
 [awesome-scoop]: https://github.com/tapanchandra/awesome-scoop
-[jfut-bucket]: https://github.com/jfut/scoop-jfut
+[jfut bucket]: https://github.com/jfut/scoop-jfut
