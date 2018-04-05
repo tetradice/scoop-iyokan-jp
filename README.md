@@ -1,5 +1,6 @@
-iyokan-jp bucket
+iyokan-jp bucket [![Join the chat at https://gitter.im/scoop-iyokan-jp/ja](https://badges.gitter.im/scoop-iyokan-jp/Lobby.svg)](https://gitter.im/scoop-iyokan-jp/ja?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ================
+
 
 iyokan-jpは、[Scoop][]にインストール可能なソフトウェアリストを追加するための追加bucketです。
 
@@ -62,7 +63,7 @@ Windows向けの素晴らしいパッケージ管理ソフトウェア、[Scoop]
 
 本bucketに登録しているいくつかのmanifestファイルは、他のbucketに登録されているmanifestファイルを元に制作させていただきました。
 
-* CrystalDiskMark, CrystalDiskInfo - [jfut-bucket][] (Created by jfut)
+* CrystalDiskMark, CrystalDiskInfo - [jfut bucket][] (Created by jfut)
 * NYAGOS - [yutahaga/scoop-bucket](https://github.com/yutahaga/scoop-bucket/) (Created by yutahaga)
 
 
@@ -84,4 +85,4 @@ manifestの作成方針 (2018/4/5現在)
 
 [Scoop]: http://scoop.sh/
 [awesome-scoop]: https://github.com/tapanchandra/awesome-scoop
-[jfut-bucket]: https://github.com/jfut/scoop-jfut
+[jfut bucket]: https://github.com/jfut/scoop-jfut
