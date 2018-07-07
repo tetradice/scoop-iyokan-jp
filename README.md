@@ -26,7 +26,7 @@ iyokan-jpは下記のポリシーに従ってソフトウェアを登録して�
     c:\> scoop install crystaldiskmark
 
 
-登録ソフトウェア (2018/4/5 現在)
+登録ソフトウェア (2018/7/8 現在)
 ------------------------------
 * [bluewind](http://www.web-ghost.net/bluewind/) - コマンドラインランチャー
 * [ckw](http://ckw-mod.github.io/) - 端末ソフトウェア (コマンドプロンプト代替ツール)
@@ -40,6 +40,7 @@ iyokan-jpは下記のポリシーに従ってソフトウェアを登録して�
 * [NYAOS 3.x](http://www.nyaos.org/index.cgi?p=NYAOS+3000) - コマンドラインシェル
 * [Opera](https://www.opera.com/) - Webブラウザ
 * [Putty-ranvis](http://www.ranvis.com/putty) - SSHクライアント (ranvis氏によるカスタムビルド版)
+* [rdiff-backup](http://rdiff-backup.nongnu.org/) - 増分バックアップツール
 * [SSP](http://ssp.shillest.net/) - デスクトップマスコット・クライアント
 * [Tablacus Explorer](https://tablacus.github.io/explorer.html) - タブ型ファイラー
 * [WinMerge 日本語版](http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge.html)  - 差分比較/マージツール (日本語対応＋独自拡張版)
