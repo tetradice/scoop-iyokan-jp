@@ -1,14 +1,14 @@
-﻿{
-    "version": "2.14.0-jp-151",
+{
+    "version": "2.14.0-jp-152",
     "license": "GPL2",
     "architecture": {
         "64bit": {
-            "url": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge-2.14.0-jp-151-x64-exe.zip",
-            "hash": "4c3eab417738190d92c40cf4fb75b5ab79bbc8f5c5a9c3b4f8ec79f57d613190"
+            "url": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge-2.14.0-jp-152-x64-exe.zip",
+            "hash": "370f4a552dc93f4b1bf47994e93687f205a7b125aee3b08eef7a70d0b3477cda"
         },
         "32bit": {
-            "url": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge-2.14.0-jp-151-exe.zip",
-            "hash": "cc4dc14b1541cab23c8c02392bbf9a32db48bc700145791b6dfd0b3aa51f00c2"
+            "url": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge-2.14.0-jp-152-exe.zip",
+            "hash": "cf38b3e633be1a9bfa7fae48f591c8e9baa62dab932874c2d3ba441e20bac932"
         }
     },
     "extract_dir": "WinMerge",
