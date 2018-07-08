@@ -1,9 +1,9 @@
 {
     "homepage": "https://tablacus.github.io/explorer.html",
-    "version": "18.4.7",
+    "version": "18.7.4",
     "license": "MIT",
-    "url": "https://tablacus.github.io/dl/te180407.zip",
-    "hash": "c7c9a6218730ccba8d897e16a293e7d69a893ad867f2847e47e68ed12deb33e4",
+    "url": "https://tablacus.github.io/dl/te180704.zip",
+    "hash": "6c41aafca2e192ca6c67251dba9bd7a474388ea12b01e73e41c2c613f26f02de",
     "architecture": {
         "64bit": {
             "bin": [["TE64.exe", "te"], ["TE64.exe", "tablacus"]],
@@ -24,8 +24,15 @@
             ]
         }
     },
-    "pre_install": "if(!(Test-Path(\"$dir\\config\"))) { New-Item \"$dir\\config\" -type directory | Out-Null } ",
-    "persist": "config",
+    "pre_install": [
+          "Write-Output \"[pre_install] Moving addons -> addons.bundled\"; Move-Item \"$dir\\addons\" \"$dir\\addons.bundled\""
+        , "if(!(Test-Path(\"$dir\\config\"))) { Write-Output \"[pre_install] Creating $dir\\config\"; New-Item \"$dir\\config\" -type directory | Out-Null }"
+    ],
+    "persist": ["config", "addons"],
+    "post_install": [
+          "Write-Output \"[post_install] Overwriting addons.bundled/* -> addons/*\"; Copy-Item \"$dir\\addons.bundled\\*\" \"$dir\\addons\" -Recurse -Force"
+        , "Write-Output \"[post_install] Removing addons.bundled\"; Remove-Item \"$dir\\addons.bundled\" -Recurse -Force"
+    ],
     "checkver": {
         "github": "https://github.com/tablacus/TablacusExplorer"
     }
