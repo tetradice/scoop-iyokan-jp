@@ -1,0 +1,34 @@
+{
+    "homepage": "http://ssp.shillest.net/",
+    "version": "2.4.17",
+    "url": "http://inazumaapps.info/scoop/redist/ssp_2_4_17f.7z",
+    "hash": "33ca32c79d85216fc20b95c068519372e5f7701469a88cc0a71d98127c3d99e0",
+    "bin": "ssp.exe",
+    "pre_install": [
+        "if((Test-Path(\"$env:TEMP\\__scoop__bundled\"))) { Write-Output \"[pre_install] Removing __scoop_bundled\"; Remove-Item \"$env:TEMP\\__scoop__bundled\" -Recurse -Force }"
+      , "Write-Output \"[pre_install] Creating __scoop__bundled\"; New-Item \"$env:TEMP\\__scoop__bundled\" -type directory | Out-Null"
+      , "Write-Output \"[pre_install] Copying original files -> __scoop__bundled\"; Copy-Item \"$dir\\*\" \"$env:TEMP\\__scoop__bundled\" -Recurse -Force"
+],
+"persist": [
+      "balloon"
+    , "calendar"
+    , "data"
+    , "ghost"
+    , "headline"
+    , "plugin"
+],
+"post_install": [
+    "Write-Output \"[post_install] Overwriting from __scoop_bundled/*\"; Copy-Item \"$env:TEMP\\__scoop__bundled\\*\" \"$dir\" -Recurse -Force"
+  , "Write-Output \"[post_install] Removing __scoop_bundled\"; Remove-Item \"$env:TEMP\\__scoop__bundled\" -Recurse -Force"
+],
+    "shortcuts": [
+        [
+            "ssp.exe",
+            "SSP (Sakura Script Player)"
+        ]
+    ],
+    "checkver": {
+          "url": "http://ssp.shillest.net/"
+        , "re": "SSP ([\\d.]+)"
+    }
+}
