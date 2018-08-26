@@ -26,7 +26,7 @@ iyokan-jpは下記のポリシーに従ってソフトウェアを登録して�
     c:\> scoop install crystaldiskmark
 
 
-登録ソフトウェア (2018/7/8 現在)
+登録ソフトウェア (2018/8/26 現在)
 ------------------------------
 * [bluewind](http://www.web-ghost.net/bluewind/) - コマンドラインランチャー
 * [ckw](http://ckw-mod.github.io/) - 端末ソフトウェア (コマンドプロンプト代替ツール)
@@ -34,8 +34,9 @@ iyokan-jpは下記のポリシーに従ってソフトウェアを登録して�
     * Shizuku Edition, Kurei Kei Edition 含む
 * [CrystalDiskMark](https://crystalmark.info/ja/software/crystaldiskmark/) - HDD, SSD, USBメモリなどの速度を測定するベンチマークツール
     * Shizuku Edition 含む
+* [exuberant ctags 日本語対応版](https://hp.vector.co.jp/authors/VA025040/ctags/) - ソースコードの定義に対するタグファイルを生成するユーテリティ
 * [MassiGra](http://www.massigra.net/) - 画像ビューア
-* [Mery](https://www.haijin-boys.com/wiki/) - テキストエディタ
+* [Mery](https://www.haijin-boys.com/wiki/) - テキストエディタ　※開発版は `mery-beta` の名前でインストール可能
 * [NYAGOS](https://github.com/zetamatta/nyagos/blob/master/readme_ja.md) - コマンドラインシェル
 * [NYAOS 3.x](http://www.nyaos.org/index.cgi?p=NYAOS+3000) - コマンドラインシェル
 * [Opera](https://www.opera.com/) - Webブラウザ
