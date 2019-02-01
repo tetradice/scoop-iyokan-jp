@@ -1,4 +1,4 @@
-{
+ï»¿{
     "version": "2.16.0-jp-7",
     "license": "GPL2",
     "architecture": {
@@ -17,7 +17,7 @@
     "shortcuts": [
         [
             "WinMergeU.exe",
-            "WinMerge (“ú–{Œê”Å)"
+            "WinMerge (æ—¥æœ¬èªžç‰ˆ)"
         ]
     ],
     "checkver": {
