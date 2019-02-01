@@ -1,9 +1,9 @@
 {
     "homepage": "https://crystalmark.info/ja/software/crystaldiskmark/",
-    "version": "6.0.0",
+    "version": "6.0.2",
     "license": "MIT",
-    "url": "http://iij.dl.osdn.jp/crystaldiskmark/68624/CrystalDiskMark6_0_0.zip",
-    "hash": "eae73e7184a784eb5f9d6b8c588eb0ae1c0fda037cd5c386758e83ee0f2854ee",
+    "url": "http://inazumaapps.info/scoop/redist/CrystalDiskMark6_0_2.zip",
+    "hash": "77588fd291e207ecbb030c87ec271f82922d6e802ad837042e2f385f83b08e9d",
     "architecture": {
         "64bit": {
             "bin": [["DiskMark64.exe", "crystaldiskmark"]],

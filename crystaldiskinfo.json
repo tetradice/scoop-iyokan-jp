@@ -1,9 +1,9 @@
 {
     "homepage": "https://crystalmark.info/ja/software/crystaldiskinfo/",
-    "version": "7.6.0",
+    "version": "8.0.0",
     "license": "MIT",
-    "url": "http://inazumaapps.info/scoop/redist/CrystalDiskInfo7_6_0.zip",
-    "hash": "2868c95723da0362e01f9575831e960e5205dd04382f7cc55d778b99de896896",
+    "url": "http://inazumaapps.info/scoop/redist/CrystalDiskInfo8_0_0.zip",
+    "hash": "8e98d3be4f54d85c4da19ecc7bc602ae7ebeb72bff90e57c9886794d114742c7",
     "architecture": {
         "64bit": {
             "bin": [["DiskInfo64.exe", "crystaldiskinfo"]],

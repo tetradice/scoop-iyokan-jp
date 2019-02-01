@@ -1,37 +1,37 @@
 {
-    "version": "2.14.0-jp-152",
+    "version": "2.16.0-jp-7",
     "license": "GPL2",
     "architecture": {
         "64bit": {
-            "url": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge-2.14.0-jp-152-x64-exe.zip",
-            "hash": "370f4a552dc93f4b1bf47994e93687f205a7b125aee3b08eef7a70d0b3477cda"
+            "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-2.16.0-jp-7-exe.zip",
+            "hash": "bc989e384ba089ba9ce2ef52b0e63c91a4538eca17f0ccec91aaa095f9df3a96"
         },
         "32bit": {
-            "url": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge-2.14.0-jp-152-exe.zip",
-            "hash": "cf38b3e633be1a9bfa7fae48f591c8e9baa62dab932874c2d3ba441e20bac932"
+            "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-2.16.0-jp-7-x64-exe.zip",
+            "hash": "da7d4c53ef3c627a6cc59dcd6c690f4e10a01f3e6b68a6748919da123dbe063f"
         }
     },
     "extract_dir": "WinMerge",
-    "homepage": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge.html",
+    "homepage": "https://winmergejp.bitbucket.io/",
     "bin": "WinMergeU.exe",
     "shortcuts": [
         [
             "WinMergeU.exe",
-            "WinMerge (æ—¥æœ¬èªžç‰ˆ)"
+            "WinMerge (“ú–{Œê”Å)"
         ]
     ],
     "checkver": {
-        "url": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge.rdf",
-        "re": "([\\d.]+)\\+\\-jp\\-([\\d]+)",
+        "url": "https://winmergejp.bitbucket.io/",
+        "re": "winmerge-([\\d.]+)-jp-([\\d]+)-exe.zip",
         "replace": "${1}-jp-${2}"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge-$match1-jp-$match2-x64-exe.zip"
+                "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-$match1-jp-$match2-exe.zip"
             },
             "32bit": {
-                "url": "http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge-$match1-jp-$match2-exe.zip"
+                "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-$match1-jp-$match2-x64-exe.zip"
             }
         }
     }

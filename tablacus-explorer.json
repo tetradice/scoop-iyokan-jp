@@ -1,9 +1,9 @@
 {
     "homepage": "https://tablacus.github.io/explorer.html",
-    "version": "18.7.4",
+    "version": "19.1.28",
     "license": "MIT",
-    "url": "https://tablacus.github.io/dl/te180704.zip",
-    "hash": "6c41aafca2e192ca6c67251dba9bd7a474388ea12b01e73e41c2c613f26f02de",
+    "url": "https://github.com/tablacus/TablacusExplorer/releases/download/19.1.28/te190128.zip",
+    "hash": "b54ba8b9ecc91706242e5ace22134c1e2d689f3d69f79612698176cdd784ad22",
     "architecture": {
         "64bit": {
             "bin": [["TE64.exe", "te"], ["TE64.exe", "tablacus"]],
@@ -25,13 +25,14 @@
         }
     },
     "pre_install": [
-          "Write-Output \"[pre_install] Moving addons -> addons.bundled\"; Move-Item \"$dir\\addons\" \"$dir\\addons.bundled\""
-        , "if(!(Test-Path(\"$dir\\config\"))) { Write-Output \"[pre_install] Creating $dir\\config\"; New-Item \"$dir\\config\" -type directory | Out-Null }"
+        "if((Test-Path(\"$env:TEMP\\__scoop__preserved\"))) { Write-Output \"[pre_install] Removing temporary preserved folder\"; Remove-Item \"$env:TEMP\\__scoop__preserved\" -Recurse -Force }",
+        "Write-Output \"[pre_install] Creating temporary preserved folder\"; New-Item \"$env:TEMP\\__scoop__preserved\" -type directory | Out-Null",
+        "Write-Output \"[pre_install] Preserving original files\"; Copy-Item \"$dir\\*\" \"$env:TEMP\\__scoop__preserved\" -Recurse -Force"
     ],
     "persist": ["config", "addons"],
     "post_install": [
-          "Write-Output \"[post_install] Overwriting addons.bundled/* -> addons/*\"; Copy-Item \"$dir\\addons.bundled\\*\" \"$dir\\addons\" -Recurse -Force"
-        , "Write-Output \"[post_install] Removing addons.bundled\"; Remove-Item \"$dir\\addons.bundled\" -Recurse -Force"
+        "Write-Output \"[post_install] Overwriting from original files\"; Copy-Item \"$env:TEMP\\__scoop__preserved\\*\" \"$dir\" -Recurse -Force",
+        "Write-Output \"[post_install] Removing temporary preserved folder\"; Remove-Item \"$env:TEMP\\__scoop__preserved\" -Recurse -Force"
     ],
     "checkver": {
         "github": "https://github.com/tablacus/TablacusExplorer"
