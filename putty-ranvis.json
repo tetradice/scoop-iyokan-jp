@@ -13,7 +13,14 @@
     },
     "extract_dir": "PuTTY-ranvis",
     "homepage": "http://www.ranvis.com/putty",
-    "bin": "Putty.exe",
+    "bin": [
+        "pageant.exe",
+        "plink.exe",
+        "pscp.exe",
+        "psftp.exe",
+        "putty.exe",
+        "puttygen.exe"
+    ],
     "shortcuts": [
         [
             "Putty.exe",
