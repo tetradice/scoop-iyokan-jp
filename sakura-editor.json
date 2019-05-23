@@ -1,0 +1,19 @@
+﻿{
+    "version": "2.3.2.0",
+    "url": "https://github.com/sakura-editor/sakura/releases/download/v2.3.2.0/sakura2-3-2-0.zip",
+    "extract_dir": "sakura2-3-2-0",
+    "bin": "sakura.exe",
+    "shortcuts": [
+        [
+            "sakura.exe",
+            "サクラエディタ"
+        ]
+    ],
+    "post_install": [
+        "Expand-Archive -Path $dir\\QuickStartV2.zip -DestinationPath $dir -Force"
+    ],
+    "hash": "f767b65096c96decb1540a7b95ef07b8dc77e08732d8af12a3fdc84e4137f2b0",
+    "checkver": {
+        "github": "https://github.com/sakura-editor/sakura"
+    }
+}
