@@ -42,6 +42,7 @@ iyokan-jpは下記のポリシーに従ってソフトウェアを登録して�
 * [Opera](https://www.opera.com/) - Webブラウザ
 * [Putty-ranvis](http://www.ranvis.com/putty) - SSHクライアント (ranvis氏によるカスタムビルド版)
 * [rdiff-backup](http://rdiff-backup.nongnu.org/) - 増分バックアップツール
+* [サクラエディタ](https://sakura-editor.github.io/) - テキストエディタ
 * [SSP](http://ssp.shillest.net/) - デスクトップマスコット・クライアント
 * [Tablacus Explorer](https://tablacus.github.io/explorer.html) - タブ型ファイラー
 * [WinMerge 日本語版](http://www.geocities.co.jp/SiliconValley-SanJose/8165/winmerge.html)  - 差分比較/マージツール (日本語対応＋独自拡張版)
