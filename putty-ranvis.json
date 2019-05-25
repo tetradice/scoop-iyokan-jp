@@ -29,6 +29,6 @@
     ],
     "checkver": {
         "url": "http://www.ranvis.com/putty",
-        "re": "PuTTY-([\\d.]+-ranvis) (\\d{4})/(\\d{2})/(\\d{2})"
+        "re": "PuTTY-([\\d.]+-ranvis) (\\d{4})-(\\d{2})-(\\d{2})"
     }
 }
