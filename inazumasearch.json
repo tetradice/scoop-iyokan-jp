@@ -1,7 +1,7 @@
 {
-    "version": "0.7.1",
-    "hash": "0c578718941475d4808cd4de4559875c32edc9c37a3f7dd9d4da79a4ecce0714",
-    "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-0.7.1-Portable.zip",
+    "version": "0.7.2",
+    "hash": "1658b74c342e3d0d1d9fac6103f1be88f8e9aff56053ed0c1b4a6b2e1937dfac",
+    "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-0.7.2-Portable.zip",
     "homepage": "https://inazumaapps.info/inazumasearch/",
     "bin": "InazumaSearchPortable.exe",
     "persist": "data",
