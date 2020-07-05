@@ -1,18 +1,19 @@
 {
-    "version": "0.7.0",
-    "hash": "c8689ec3ec1349f4406470d8ce8a7e9254b3269fc17f882ee8987e41c9b4c313",
-    "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-0.7.0-Portable.zip",
+    "version": "0.7.1",
+    "hash": "0c578718941475d4808cd4de4559875c32edc9c37a3f7dd9d4da79a4ecce0714",
+    "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-0.7.1-Portable.zip",
     "homepage": "https://inazumaapps.info/inazumasearch/",
     "bin": "InazumaSearchPortable.exe",
-    "persist": [
-        "data"
-    ],
+    "persist": "data",
     "shortcuts": [
         [
             "InazumaSearchPortable.exe",
             "Inazuma Search"
         ]
     ],
+    "checkver": {
+        "github": "https://github.com/inazumaapps/inazumasearch"
+    },
     "autoupdate": {
         "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-$version-Portable.zip"
     }
