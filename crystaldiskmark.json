@@ -1,9 +1,9 @@
 {
     "homepage": "https://crystalmark.info/ja/software/crystaldiskmark/",
-    "version": "6.0.2",
+    "version": "7.0.0h",
     "license": "MIT",
-    "url": "http://inazumaapps.info/scoop/redist/CrystalDiskMark6_0_2.zip",
-    "hash": "77588fd291e207ecbb030c87ec271f82922d6e802ad837042e2f385f83b08e9d",
+    "url": "http://inazumaapps.info/scoop/redist/CrystalDiskMark7_0_0h.zip",
+    "hash": "1d7429ab50072dc0ae4a418125012ce18b0fdcf11a29871f7f9f806a5dcc215b",
     "architecture": {
         "64bit": {
             "bin": [["DiskMark64.exe", "crystaldiskmark"]],
@@ -34,7 +34,7 @@
     ],
     "checkver": {
         "url": "https://crystalmark.info/ja/download/",
-        "re": "\\] CrystalDiskMark ([\\d.]+) &#8211;"
+        "re": "\\] CrystalDiskMark ([\\a-z.]+) &#8211;"
     },
     "_comment": "This manifest derives from https://github.com/jfut/scoop-jfut/"
 }

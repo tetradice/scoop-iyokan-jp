@@ -3,12 +3,12 @@
     "license": "GPL2",
     "architecture": {
         "64bit": {
-            "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-2.16.2-jp-3-exe.zip",
-            "hash": "e9ac1e3dbbef0aff13e54f2d50551566e54a89a07e7c118129aee7e01c9973ec"
+            "url": "http://inazumaapps.info/scoop/redist/winmerge-2.16.6-jp-10-x64-exe.zip",
+            "hash": "fdbdd4eb3d1248209245c36d514685270da72f224f3d5d2ba5d6461dce6d4022"
         },
         "32bit": {
-            "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-2.16.2-jp-3-x64-exe.zip",
-            "hash": "aa202621a20066f2592fb369f248da51135770b628f83073a2f083c277d066a3"
+            "url": "http://inazumaapps.info/scoop/redist/winmerge-2.16.6-jp-10-exe.zip",
+            "hash": "86ed9fc91f05a18d765acce247565b441d55bb597633acaecf8e8c039bb5ea65"
         }
     },
     "extract_dir": "WinMerge",
@@ -30,22 +30,12 @@
     "shortcuts": [
         [
             "WinMergeU.exe",
-            "WinMerge (æ—¥æœ¬èªžç‰ˆ)"
+            "WinMerge (“ú–{Œê”Å)"
         ]
     ],
     "checkver": {
         "url": "https://winmergejp.bitbucket.io/",
         "re": "winmerge-([\\d.]+)-jp-([\\d]+)-exe.zip",
         "replace": "${1}-jp-${2}"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-$match1-jp-$match2-exe.zip"
-            },
-            "32bit": {
-                "url": "https://bitbucket.org/sdottaka/winmerge-v2/downloads/winmerge-$match1-jp-$match2-x64-exe.zip"
-            }
-        }
     }
 }

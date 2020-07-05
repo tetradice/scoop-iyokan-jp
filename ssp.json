@@ -1,8 +1,8 @@
 {
     "homepage": "http://ssp.shillest.net/",
-    "version": "2.4.27",
-    "url": "http://inazumaapps.info/scoop/redist/ssp_2_4_27f.zip",
-    "hash": "b65e1a47d46aef8f3219f43037f408d1d7188680d9ef7ca11712d63fcc236039",
+    "version": "2.4.79",
+    "url": "http://inazumaapps.info/scoop/redist/ssp_2_4_79f.zip",
+    "hash": "a916005e8413501c6a72eb50340423416eb038f36ddc7506b79fcf859269b920",
     "bin": "ssp.exe",
     "pre_install": [
           "if((Test-Path(\"$env:TEMP\\__scoop__preserved\"))) { Write-Output \"[pre_install] Removing temporary preserved folder\"; Remove-Item \"$env:TEMP\\__scoop__preserved\" -Recurse -Force }"
