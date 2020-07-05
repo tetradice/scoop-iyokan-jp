@@ -22,11 +22,11 @@ iyokan-jpは下記のポリシーに従ってソフトウェアを登録して�
 
     c:\> scoop install mery
     c:\> scoop install winmerge-jp
-    c:\> scoop install tablacus-explorer
     c:\> scoop install crystaldiskmark
+    c:\> scoop install inazumasearch
 
 
-登録ソフトウェア (2018/8/26 現在)
+登録ソフトウェア (2020/7/5 現在)
 ------------------------------
 * [bluewind](http://www.web-ghost.net/bluewind/) - コマンドラインランチャー
 * [ckw](http://ckw-mod.github.io/) - 端末ソフトウェア (コマンドプロンプト代替ツール)
@@ -35,6 +35,7 @@ iyokan-jpは下記のポリシーに従ってソフトウェアを登録して�
 * [CrystalDiskMark](https://crystalmark.info/ja/software/crystaldiskmark/) - HDD, SSD, USBメモリなどの速度を測定するベンチマークツール
     * Shizuku Edition 含む
 * [exuberant ctags 日本語対応版](https://hp.vector.co.jp/authors/VA025040/ctags/) - ソースコードの定義に対するタグファイルを生成するユーテリティ
+* [Inazuma Search](https://inazumaapps.info/inazumasearch/) - 全文検索ソフトウェア
 * [MassiGra](http://www.massigra.net/) - 画像ビューア
 * [Mery](https://www.haijin-boys.com/wiki/) - テキストエディタ　※開発版は `mery-beta` の名前でインストール可能
 * [NYAGOS](https://github.com/zetamatta/nyagos/blob/master/readme_ja.md) - コマンドラインシェル
@@ -71,7 +72,7 @@ Windows向けの素晴らしいパッケージ管理ソフトウェア、[Scoop]
 
 
 
-manifestの作成方針 (2018/4/5現在)
+manifestの作成方針 (2020年現在)
 -----------------
 * 原則、パッケージ名に"jp"や"ja"はつけない
     * ただし、日本語版独自の改良が行われており、実質的に別バージョンの場合は例外とする（例：WinMerge 日本語版）

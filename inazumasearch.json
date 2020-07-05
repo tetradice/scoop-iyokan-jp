@@ -1,0 +1,19 @@
+{
+    "version": "0.7.0",
+    "hash": "c8689ec3ec1349f4406470d8ce8a7e9254b3269fc17f882ee8987e41c9b4c313",
+    "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-0.7.0-Portable.zip",
+    "homepage": "https://inazumaapps.info/inazumasearch/",
+    "bin": "InazumaSearchPortable.exe",
+    "persist": [
+        "data"
+    ],
+    "shortcuts": [
+        [
+            "InazumaSearchPortable.exe",
+            "Inazuma Search"
+        ]
+    ],
+    "autoupdate": {
+        "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-$version-Portable.zip"
+    }
+}
