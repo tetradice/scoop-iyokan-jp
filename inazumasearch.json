@@ -1,7 +1,15 @@
 {
-    "version": "0.7.2",
-    "hash": "1658b74c342e3d0d1d9fac6103f1be88f8e9aff56053ed0c1b4a6b2e1937dfac",
-    "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-0.7.2-Portable.zip",
+    "version": "0.8.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-0.8.0-Portable-x64.zip",
+            "hash": "a9de3a7e7b379ec864744ebb30a47543b825ef02621629eb97f8948037f1ea5b"
+        },
+        "32bit": {
+            "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-0.8.0-Portable-x86.zip",
+            "hash": "686098fa41a6db427f47645a7d948a19a15045768a2f692aef663088124aa4ce"
+        }
+    },
     "homepage": "https://inazumaapps.info/inazumasearch/",
     "bin": "InazumaSearchPortable.exe",
     "persist": "data",
@@ -15,6 +23,13 @@
         "github": "https://github.com/inazumaapps/inazumasearch"
     },
     "autoupdate": {
-        "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-$version-Portable.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-$version-Portable-x64.zip"
+            },
+            "32bit": {
+                "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-$version-Portable-x86.zip"
+            }
+        }
     }
 }
