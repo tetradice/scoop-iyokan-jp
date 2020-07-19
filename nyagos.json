@@ -1,15 +1,15 @@
-﻿{
+{
     "homepage": "https://github.com/zetamatta/nyagos/blob/master/readme_ja.md",
-    "version": "4.4.6_2",
+    "version": "4.4.7_0",
     "license": "BSD 3-Clause",
     "architecture": {
         "64bit": {
-              "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.6_2/nyagos-4.4.6_2-windows-amd64.zip"
-            , "hash": "b0dfbfab309c4c06a4dda28d1864a567a10dfbde3ae6a44d016c74f3555745e0"
+            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.7_0/nyagos-4.4.7_0-windows-amd64.zip",
+            "hash": "ddf82e13be404f5a9bdf2609aea374a3feb74bfed61b0f381feee2ca6b4f36f1"
         },
         "32bit": {
-            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.6_2/nyagos-4.4.6_2-windows-386.zip"
-            , "hash": "2bae227a485bc3e010c6bdcab1f896939ea751902227d6a2a14aa1c7a259599e"
+            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.7_0/nyagos-4.4.7_0-windows-386.zip",
+            "hash": "2e2d1cf3c11d93ac6466250057556e2507a38a6cb8b10885076beb4c44f5dd50"
         }
     },
     "bin": "nyagos.exe",
@@ -20,7 +20,18 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/zetamatta/nyagos/"
+        "url": "https://github.com/zetamatta/nyagos/releases",
+        "re": "/zetamatta/nyagos/releases/tag/([\\d_.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zetamatta/nyagos/releases/download/$version/nyagos-$version-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/zetamatta/nyagos/releases/download/$version/nyagos-$version-windows-386.zip"
+            }
+        }
     },
     "_comment": "This manifest derives from https://github.com/yutahaga/scoop-bucket/"
 }
