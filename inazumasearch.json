@@ -1,13 +1,13 @@
 {
-    "version": "0.20.1",
+    "version": "0.20.2",
     "architecture": {
         "64bit": {
-            "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-0.20.1-Portable-x64.zip",
-            "hash": "0177bcf545df44ca79493f878f8c78e0cf46c9e740e715b53e09d814bd03deab"
+            "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-0.20.2-Portable-x64.zip",
+            "hash": "4ef33993c98a9af90c04d6e9190a1a885eeb065eb36f9bf0e4a9ea691067c1cc"
         },
         "32bit": {
-            "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-0.20.1-Portable-x86.zip",
-            "hash": "50bd79ccbc5024643059db8512d634008f7f88ca264eca0f6ebd4d2b666d3cb2"
+            "url": "https://inazumaapps.info/inazumasearch/release/InazumaSearch-0.20.2-Portable-x86.zip",
+            "hash": "248fab3537b5c96109f88441c540f8cde5c2a749cb6cb946e07ff31b155dfc00"
         }
     },
     "homepage": "https://inazumaapps.info/inazumasearch/",
