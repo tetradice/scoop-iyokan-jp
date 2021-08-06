@@ -26,7 +26,7 @@ iyokan-jpは下記のポリシーに従ってソフトウェアを登録して�
     c:\> scoop install inazumasearch
 
 
-登録ソフトウェア (2020/7/5 現在)
+登録ソフトウェア (2021/8/7 現在)
 ------------------------------
 * [bluewind](http://www.web-ghost.net/bluewind/) - コマンドラインランチャー
 * [ckw](http://ckw-mod.github.io/) - 端末ソフトウェア (コマンドプロンプト代替ツール)
@@ -42,7 +42,6 @@ iyokan-jpは下記のポリシーに従ってソフトウェアを登録して�
 * [NYAOS 3.x](http://www.nyaos.org/index.cgi?p=NYAOS+3000) - コマンドラインシェル
 * [Opera](https://www.opera.com/) - Webブラウザ
 * [Putty-ranvis](http://www.ranvis.com/putty) - SSHクライアント (ranvis氏によるカスタムビルド版)
-* [rdiff-backup](http://rdiff-backup.nongnu.org/) - 増分バックアップツール
 * [サクラエディタ](https://sakura-editor.github.io/) - テキストエディタ
 * [SSP](http://ssp.shillest.net/) - デスクトップマスコット・クライアント
 * [Tablacus Explorer](https://tablacus.github.io/explorer.html) - タブ型ファイラー
@@ -72,13 +71,13 @@ Windows向けの素晴らしいパッケージ管理ソフトウェア、[Scoop]
 
 
 
-manifestの作成方針 (2020年現在)
+manifestの作成方針 (2021年現在)
 -----------------
 * 原則、パッケージ名に"jp"や"ja"はつけない
     * ただし、日本語版独自の改良が行われており、実質的に別バージョンの場合は例外とする（例：WinMerge 日本語版）
 * すべてのアプリはコマンドラインから実行可能なように登録する (manifest内で "bin" を必ず指定する)
 * すべてのアプリはWindowsのスタートメニューから選択できるようにする (manifest内で "shortcuts" を必ず指定する) 
-    * ただし、GUIを全く持たず、完全にCUIのみツールの場合は例外とする
+    * ただし、GUIを全く持たず、完全にCUIのみのツールの場合は例外とする
 * アプリのフォルダ内にデータファイルを作るものは、できるかぎりpersist対応する（バージョンアップによってデータが失われないようにする）
 
 
