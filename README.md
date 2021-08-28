@@ -26,7 +26,7 @@ iyokan-jpは下記のポリシーに従ってソフトウェアを登録して�
     c:\> scoop install inazumasearch
 
 
-登録ソフトウェア (2021/8/21 現在)
+登録ソフトウェア (2021/8/28 現在)
 ------------------------------
 * [A5:SQL Mk-2](https://a5m2.mmatsubara.com/) - SQLデータベースクライアント
 * [bluewind](http://www.web-ghost.net/bluewind/) - コマンドラインランチャー
@@ -36,6 +36,7 @@ iyokan-jpは下記のポリシーに従ってソフトウェアを登録して�
 * [CrystalDiskMark](https://crystalmark.info/ja/software/crystaldiskmark/) - HDD, SSD, USBメモリなどの速度を測定するベンチマークツール
     * Shizuku Edition 含む
 * [exuberant ctags 日本語対応版](https://hp.vector.co.jp/authors/VA025040/ctags/) - ソースコードの定義に対するタグファイルを生成するユーテリティ
+* [Groonga](https://groonga.org/ja/) - 全文検索エンジン
 * [Inazuma Search](https://inazumaapps.info/inazumasearch/) - 全文検索ソフトウェア
 * [MassiGra](http://www.massigra.net/) - 画像ビューア
 * [Mery](https://www.haijin-boys.com/wiki/) - テキストエディタ　※開発版は `mery-beta` の名前でインストール可能
@@ -67,6 +68,7 @@ Windows向けの素晴らしいパッケージ管理ソフトウェア、[Scoop]
 
 本bucketに登録しているいくつかのmanifestファイルは、他のbucketに登録されているmanifestファイルを元に制作させていただきました。
 
+* A5:SQL Mk-2 - [ba230t/scoop-bucket](https://github.com/ba230t/scoop-bucket) (Created by ba230t)
 * CrystalDiskMark, CrystalDiskInfo - [jfut bucket][] (Created by jfut)
 * NYAGOS - [yutahaga/scoop-bucket](https://github.com/yutahaga/scoop-bucket/) (Created by yutahaga)
 
