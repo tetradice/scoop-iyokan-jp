@@ -2,6 +2,7 @@
     "homepage": "https://groonga.org/ja/",
     "version": "11.0.6",
     "bin": "bin/groonga.exe",
+    "license": "LGPL-2.1",
     "architecture": {
         "64bit": {
             "url": "https://github.com/groonga/groonga/releases/download/v11.0.6/groonga-11.0.6-x64-vs2019-with-vcruntime.zip",
