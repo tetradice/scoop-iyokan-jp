@@ -55,9 +55,9 @@ iyokan-jpは下記のポリシーに従ってソフトウェアを登録して�
     c:\> scoop bucket add extras
     c:\> scoop bucket add jfut https://github.com/jfut/scoop-jfut.git
 
-また、[awesome-scoop][]で、現在github上にアップロードされている全bucketとソフトウェアのリストを確認することができます。
+また、[scoop-directory][]で、現在github上にアップロードされている全bucketとソフトウェアのリストを確認することができます。
 
-※awesome-scoopに掲載されていないソフトウェアで、iyokan-jpに登録してほしいものがありましたら、[Issues](https://github.com/tetradice/scoop-iyokan-jp/issues)、[Twitter](https://twitter.com/tetradice)、[gitter](https://gitter.im/scoop-iyokan-jp/ja)のどれかでご連絡ください。
+※scoop-directoryに掲載されていないソフトウェアで、iyokan-jpに登録してほしいものがありましたら、[Issues](https://github.com/tetradice/scoop-iyokan-jp/issues)、[Twitter](https://twitter.com/tetradice)、[gitter](https://gitter.im/scoop-iyokan-jp/ja)のどれかでご連絡ください。
 
 
 
@@ -91,4 +91,5 @@ manifestの作成方針 (2021年現在)
 
 [Scoop]: http://scoop.sh/
 [awesome-scoop]: https://github.com/tapanchandra/awesome-scoop
+[scoop-directory]: https://rasa.github.io/scoop-directory/by-bucket
 [jfut bucket]: https://github.com/jfut/scoop-jfut
