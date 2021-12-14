@@ -26,7 +26,7 @@ iyokan-jpは下記のポリシーに従ってソフトウェアを登録して�
     c:\> scoop install inazumasearch
 
 
-登録ソフトウェア (2021/8/28 現在)
+登録ソフトウェア (2021/12/15 現在)
 ------------------------------
 * [A5:SQL Mk-2](https://a5m2.mmatsubara.com/) - SQLデータベースクライアント
 * [bluewind](http://www.web-ghost.net/bluewind/) - コマンドラインランチャー
@@ -35,6 +35,7 @@ iyokan-jpは下記のポリシーに従ってソフトウェアを登録して�
     * Shizuku Edition, Kurei Kei Edition 含む
 * [CrystalDiskMark](https://crystalmark.info/ja/software/crystaldiskmark/) - HDD, SSD, USBメモリなどの速度を測定するベンチマークツール
     * Shizuku Edition 含む
+* [DiskInfo](https://forest.watch.impress.co.jp/library/software/diskinfo/) - フォルダー内のファイル占有率を棒グラフで一括表示するツール
 * [exuberant ctags 日本語対応版](https://hp.vector.co.jp/authors/VA025040/ctags/) - ソースコードの定義に対するタグファイルを生成するユーテリティ
 * [Groonga](https://groonga.org/ja/) - 全文検索エンジン
 * [Inazuma Search](https://inazumaapps.info/inazumasearch/) - 全文検索ソフトウェア
