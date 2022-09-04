@@ -1,18 +1,18 @@
 {
     "homepage": "https://groonga.org/ja/",
-    "version": "12.0.0",
+    "version": "12.0.7",
     "bin": "bin/groonga.exe",
     "license": "LGPL-2.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/groonga/groonga/releases/download/v12.0.0/groonga-12.0.0-x64-vs2019-with-vcruntime.zip",
-            "hash": "aa08740ef37506166c6aa281e4cca4718335df41806565f5ffd729dadfc80267",
-            "extract_dir": "groonga-12.0.0-x64-vs2019-with-vcruntime"
+            "url": "https://github.com/groonga/groonga/releases/download/v12.0.7/groonga-12.0.7-x64-vs2019-with-vcruntime.zip",
+            "hash": "eaf00a5471e28b667f49f4d380b198f2db7841077a898d76efbdc6b852c40e50",
+            "extract_dir": "groonga-12.0.7-x64-vs2019-with-vcruntime"
         },
         "32bit": {
-            "url": "https://github.com/groonga/groonga/releases/download/v12.0.0/groonga-12.0.0-x86-vs2019-with-vcruntime.zip",
-            "hash": "bfd89c07b385306fc45d6f77952bed5ec57aac86d246fb0802994914e45fab25",
-            "extract_dir": "groonga-12.0.0-x86-vs2019-with-vcruntime"
+            "url": "https://github.com/groonga/groonga/releases/download/v12.0.7/groonga-12.0.7-x86-vs2019-with-vcruntime.zip",
+            "hash": "f7f29209ce1e47332cad99562651e54cc28dcb44d80fab6826ebefbdf55d4e39",
+            "extract_dir": "groonga-12.0.7-x86-vs2019-with-vcruntime"
         }
     },
     "checkver": {
