@@ -1,14 +1,14 @@
 {
-    "version": "2.16.14-jp-1",
+    "version": "2.16.22-jp-1",
     "license": "GPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "http://inazumaapps.info/scoop/redist/winmerge-2.16.14-jp-1-x64-exe.zip",
-            "hash": "a48e7d4ed3ad53ea49308c5afc3d87133a5d1419b500b1ddc29f2a05f7a655a6"
+            "url": "http://inazumaapps.info/scoop/redist/winmerge-2.16.22-jp-1-x64-exe.zip",
+            "hash": "a0adc985b0a5a4d3d20f546ae4e8ed8478de2182c5887d416dd630c0aaf5923d"
         },
         "32bit": {
-            "url": "http://inazumaapps.info/scoop/redist/winmerge-2.16.14-jp-1-exe.zip",
-            "hash": "cbf1fbe34a063baecfe596c8cd246dba7a6782379ef244a72b034f8299dbf34c"
+            "url": "http://inazumaapps.info/scoop/redist/winmerge-2.16.22-jp-1-exe.zip",
+            "hash": "3b70a98b9d2bc19b62c42eec210f06c4b6bd40767f409ac9848d1d184fae08ea"
         }
     },
     "extract_dir": "WinMerge",
