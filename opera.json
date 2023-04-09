@@ -1,9 +1,9 @@
 {
-    "version": "91.0.4516.16",
-    "url": "https://download3.operacdn.com/pub/opera/desktop/91.0.4516.16/win/Opera_91.0.4516.16_Setup.exe#dl.7z",
+    "version": "97.0.4719.63",
+    "url": "https://download3.operacdn.com/pub/opera/desktop/97.0.4719.63/win/Opera_97.0.4719.63_Setup.exe#dl.7z",
     "homepage": "https://www.opera.com/",
     "bin": "Opera.exe",
-    "hash": "22fc6dff9a5d5a1deb5c78a5552c752b30027db9e891e45f76732765e5951305",
+    "hash": "ae5fcbca683b7613bbabe9d14dc9eb11dea503722239c1b8dcf011f68d309012",
     "shortcuts": [
         [
             "Opera.exe",
