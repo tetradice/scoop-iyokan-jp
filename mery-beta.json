@@ -1,13 +1,13 @@
 {
-    "version": "3.4.3",
+    "version": "3.5.9",
     "architecture": {
         "64bit": {
-            "url": "http://www.haijin-boys.com/download/MeryPortable-x64-3.4.3.zip",
-            "hash": "cd7a999f211d4333590bc5801bf5fb1d379e4269f1840599e7010f6f01c8ac42"
+            "url": "http://www.haijin-boys.com/download/MeryPortable-x64-3.5.9.zip",
+            "hash": "440952b825fabedab79f3daa2098820b7c252723db6cb324db788e50e71005e6"
         },
         "32bit": {
-            "url": "http://www.haijin-boys.com/download/MeryPortable-3.4.3.zip",
-            "hash": "8f24f81bb0729642befb97644bc1f53d884185d6a9ccb779f2d58dfe1384d83f"
+            "url": "http://www.haijin-boys.com/download/MeryPortable-3.5.9.zip",
+            "hash": "1fd595084e88aea2fafa4ed480d1121b2eadc56b8f3cdd942db8796a859ff3b4"
         }
     },
     "homepage": "https://www.haijin-boys.com/wiki/",
