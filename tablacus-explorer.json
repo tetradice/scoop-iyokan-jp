@@ -1,9 +1,9 @@
 {
     "homepage": "https://tablacus.github.io/explorer.html",
-    "version": "23.7.12",
+    "version": "23.9.13",
     "license": "MIT",
-    "url": "https://github.com/tablacus/TablacusExplorer/releases/download/23.7.12/te230712.zip",
-    "hash": "8a733578e02051909bb703622996dee7ce0ee2a70fc862f48d920319511a4146",
+    "url": "https://github.com/tablacus/TablacusExplorer/releases/download/23.9.13/te230913.zip",
+    "hash": "b8b231a4f9348a7de542257efcf6d4c5a607fecc7154d14c7ed4576225732127",
     "architecture": {
         "64bit": {
             "bin": [["TE64.exe", "te"], ["TE64.exe", "tablacus"]],
