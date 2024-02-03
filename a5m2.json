@@ -1,6 +1,6 @@
 {
     "homepage": "https://a5m2.mmatsubara.com/",
-    "version": "2.18.3",
+    "version": "2.19.0",
     "bin": "A5M2.exe",
     "persist": "Portable",
     "shortcuts": [
@@ -11,12 +11,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://dforest.watch.impress.co.jp/library/a/a5sqlmk2/11233/a5m2_2.18.3_x64.zip",
-            "hash": "67b531af528d25a8a0e3b0c46828234cdcb0c26f73934f3fcb86c7b880db8686"
+            "url": "https://dforest.watch.impress.co.jp/library/a/a5sqlmk2/11233/a5m2_2.19.0_x64.zip",
+            "hash": "221541cdcee7190b4b58e5f6694604f1d05495d264d53711e0bc3bcab7421379"
         },
         "32bit": {
-            "url": "https://dforest.watch.impress.co.jp/library/a/a5sqlmk2/10801/a5m2_2.18.3_x86.zip",
-            "hash": "a05d471650e6727a5177efe416c5c23ea9fb6c2dc097edc47d1967415d2c5797"
+            "url": "https://dforest.watch.impress.co.jp/library/a/a5sqlmk2/10801/a5m2_2.19.0_x86.zip",
+            "hash": "554a346419e2830c531140077712dadf30599ac0072ddc0724331dd2813134ac"
         }
     },
     "checkver": {
