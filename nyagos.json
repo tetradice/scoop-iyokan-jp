@@ -1,15 +1,15 @@
 {
     "homepage": "https://github.com/zetamatta/nyagos/blob/master/readme_ja.md",
-    "version": "4.4.18_1",
+    "version": "4.4.20_2",
     "license": "BSD-3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.18_1/nyagos-4.4.18_1-windows-amd64.zip",
-            "hash": "0eb0102fdb1875ba757fa4523a1c139a213b3293fa18b16cb7b94ec381faf313"
+            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.20_2/nyagos-4.4.20_2-windows-amd64.zip",
+            "hash": "6a84079da4a3ae4f5afa80913d02df52eefb3109f312c260defc19f9b2904bae"
         },
         "32bit": {
-            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.18_1/nyagos-4.4.18_1-windows-386.zip",
-            "hash": "698ae073d276621aeb29a8456da552798baa473c20ec25540cacf0aaae0196ed"
+            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.20_2/nyagos-4.4.20_2-windows-386.zip",
+            "hash": "342e9e23589614ed2ad81c4f19c923cdc514e54f35c4cb89c8f61c762f137219"
         }
     },
     "bin": "nyagos.exe",
