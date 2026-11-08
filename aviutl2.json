@@ -1,5 +1,5 @@
 {
-    "version": "beta27",
+    "version": "2.1.17",
     "description": [
         "AviUtlと拡張編集を纏めて新しくゼロから作り直したツールのテスト版です。",
         "Win10以降、DirectX11.3、AVX2が利用出来る環境が必要です。GPUによっては動作しないかもです。",
@@ -9,8 +9,8 @@
     "notes": "ニコニ・コモンズ: https://commons.nicovideo.jp/works/nc422952",
     "architecture": {
         "64bit": {
-            "url": "https://spring-fragrance.mints.ne.jp/aviutl/aviutl2beta27.zip",
-            "hash": "4d9c0b961cb4dc8535b2032f2484b7cfb353b69fe590bdbddde2b0dfd7e2901f"
+            "url": "https://spring-fragrance.mints.ne.jp/aviutl/aviutl2_v2.1.17.zip",
+            "hash": "771962446cfc3ce56130fa729a432de94c22343bcec1c0136d7c7ea2a3992950"
         }
     },
     "bin": "aviutl2.exe",
@@ -23,12 +23,12 @@
     "persist": "data",
     "checkver": {
         "url": "https://spring-fragrance.mints.ne.jp/aviutl/",
-        "regex": "AviUtl ExEdit2 (.*) を公開"
+        "regex": "aviutl2_v([\\d.]+)\\.zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://spring-fragrance.mints.ne.jp/aviutl/aviutl2$version.zip"
+                "url": "https://spring-fragrance.mints.ne.jp/aviutl/aviutl2_v$version.zip"
             }
         }
     }
